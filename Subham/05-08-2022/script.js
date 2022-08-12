@@ -23,5 +23,12 @@ console.log("-------------------------------------");
 // names.map((name) => console.log(name));
 
 // Create a function which takes a string
-// Returns a new string made of 3 & 4 words
+// Returns a new string made of 3rd & 4th words
 // If string contains less than 4 words, return null
+function thirdFourthWords(str) {
+  return "";
+}
+
+thirdFourthWords("subham is learning js"); // "learning js"
+thirdFourthWords("Alia is a cute girl"); // "a cute"
+thirdFourthWords("Hello world"); // null
